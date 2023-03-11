@@ -15,7 +15,7 @@ class ReWrites {
         double sum = 0.0;
         int count = 0;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
+        for( ; !(l = s.nextLine()).toUpperCase().equals("Q"); ) {
             try {
                 sum += Integer.parseInt(l);
                 count++;

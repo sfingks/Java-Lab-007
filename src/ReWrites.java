@@ -1,3 +1,10 @@
+/**
+ * @author Trevor Hartman
+ * @author MK Ripley
+ * @since Version 1.0
+ * 3/10/2023
+ */
+
 import java.util.Scanner;
 
 class ReWrites {
@@ -23,11 +30,8 @@ class ReWrites {
         int x = -1;
         int sum = 0;
 
-        while (true) {
+        while (x != 0) {
             try {
-                if(x == 0) {
-                    break;
-                }
                 x = Integer.parseInt(in.nextLine());
                 if (x <= 0) {
                     continue;
